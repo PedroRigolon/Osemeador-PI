@@ -256,16 +256,45 @@
 .main_content h1 {
   font-size: 2.5rem;
   background-color: #2a4eaf;
-  background-image: linear-gradient(to top, #4a6cc3 0%, #0b256c 100%);
+  background-image: linear-gradient(to top, #355bb9 0%, #0b256c 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }
 
 .main_content h2 {
+  font-size: 1.7rem;
+}
 
+.main_content p {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.main_button {
+font-size: 1rem;
+background-image: linear-gradient(to top, #355bb9 0%, #0b256c 100%);
+background-size: 100%;
+text-decoration: none;
+display: inline-block;
+padding: 15px 20%;
+border: 1px solid #131313;
+margin-top: 1.5rem;
+border-radius: 2rem;
+}
+
+.main .main_button:hover  {
+  background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
+  transform: scale(1.05);
+  transition: .4s;
+  box-shadow: 0px 1px 5px 0px #000;
+}
+
+.main_button-message {
+  color: #fff;
 }
