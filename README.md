@@ -1,5 +1,3 @@
-Aqui está uma sugestão que integra a paleta de cores que você quer com o conteúdo que mencionei para a landing page da escola de crianças especiais. A ideia é usar o **laranja** como a cor principal, o **azul** como secundária e o **branco** para equilibrar o design com espaçamento e clareza.
-
 ### 1. **Cabeçalho (Header)**
    - **Logo da escola**: Coloque o logo em **azul** (`#1E88E5`) para contrastar com o fundo branco.
    - **Fundo do cabeçalho**: Utilize o **laranja** primário (`#FF6F00`) para chamar atenção.
@@ -52,5 +50,3 @@ Aqui está uma sugestão que integra a paleta de cores que você quer com o cont
 1. **Use a paleta de cores** diretamente no design. No Figma, você pode configurar essas cores para todos os elementos principais da página: botões, textos, e fundos.
 2. **Testar contrastes**: No Figma, é fácil ajustar as cores e ver como elas se comportam juntas. Teste o contraste do laranja com o branco e o azul com o laranja para garantir legibilidade.
 3. **Imagens e ícones**: Inclua fotos autênticas e ícones que seguem a paleta de cores para reforçar a identidade da escola.
-
-Essa integração vai criar um visual acolhedor, vibrante e organizado para a landing page da escola. Se precisar de mais ajuda com a parte de design ou estrutura, posso sugerir melhorias adicionais!
