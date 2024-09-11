@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -291,7 +291,7 @@ border-radius: 2rem;
 .main .main_button:hover  {
   background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
   transform: scale(1.05);
-  transition: .4s;
+  transition: all .4s ease;
   box-shadow: 0px 1px 5px 0px #000;
 }
 
