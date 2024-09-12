@@ -7,5 +7,3 @@ const mobileMenu = () => {
 };
 
 menu.addEventListener("click", mobileMenu);
-console.log(menu);
-console.log(menuLinks);
