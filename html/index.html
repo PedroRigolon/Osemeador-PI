@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -74,17 +78,60 @@
 
     <!-- * CONTATO -->
     <div class="contact_container" id="contact">
-      <form action="https://api.web3forms.com/submit" method="POST" class="contact_menu">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact_menu"
+      >
         <div class="contact_title">
           <h1>ENTRE EM CONTATO</h1>
         </div>
-        <input type="hidden" name="access_key" value="b12cf0de-b48d-49fd-b6d3-020ab7141c29">
-        <input type="" name="name" placeholder="Seu nome" class="contact_input" required></input>
-        <input type="" name="email" placeholder="Email" class="contact_input" required></input>
-        <textarea name="message" placeholder="Envie uma mensagem" class="contact_input" required></textarea>
+        <input
+          type="hidden"
+          name="access_key"
+          value="b12cf0de-b48d-49fd-b6d3-020ab7141c29"
+        />
+        <input
+          type="text"
+          name="name"
+          placeholder="Seu nome"
+          class="contact_input"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          class="contact_input"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Envie uma mensagem"
+          class="contact_input"
+          required
+        ></textarea>
         <button type="submit">Enviar</button>
+        <hr class="contact_line" />
+        <div class="contact_button-container">
+          <a
+            href="https://www.instagram.com/metodistaosemeador"
+            class="contact_button"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/escolaosemeador/"
+            class="contact_button"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
       </form>
     </div>
+
     <script src="/js/app.js"></script>
     <script
       src="https://kit.fontawesome.com/4d0b2ede10.js"
