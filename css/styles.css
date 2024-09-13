@@ -84,14 +84,15 @@
   align-items: center;
   text-align: center;
   text-decoration: none;
-  padding: 3% 8%;
+  padding: 3px 1%;
   height: 100%;
   width: 100%;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   outline: none;
   border-radius: 10px;
   color: #fff;
   transition: all 0.3s ease;
+  font-weight: bold;
 }
 
 .button:hover {
@@ -291,6 +292,7 @@
   margin-top: 1.5rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .main_button a {
@@ -509,6 +511,7 @@
   border-radius: 50px;
   background: linear-gradient(to right, #355bb9, #0b256c);
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .contact_menu button:hover {
@@ -600,16 +603,18 @@
     text-align: center;
     text-decoration: none;
     font-size: 35px;
+    transition: all 1.2s ease;
   }
 
   .contact_button:hover {
     transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+    transition: all 1.2s ease;
     background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+  
   }
 }
