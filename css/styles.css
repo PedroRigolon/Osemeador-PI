@@ -292,6 +292,7 @@
   margin-top: 1.5rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .main_button a {
@@ -299,6 +300,7 @@
   text-decoration: none;
   position: relative;
   z-index: 2;
+  
 }
 
 .main_button:hover {
@@ -441,7 +443,7 @@
 */
 
 .contact_container {
-  background-color: #f8d1ae;
+  background-color: #fcbf89; /* background antigo: #f8d1ae (mais clarao)*/
   height: 100vh;
   display: flex;
   align-items: center;
@@ -510,6 +512,7 @@
   border-radius: 50px;
   background: linear-gradient(to right, #355bb9, #0b256c);
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .contact_menu button:hover {
@@ -539,16 +542,18 @@
   gap: 25px;
 }
 
-.contact_button {
+.contact_button-container .contact_button i{
   color: #fff;
   text-align: center;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 38px;
+  transition: all 0.4s ease;
+  padding: 7px 0px;
 }
 
-.contact_button:hover {
+.contact_button-container .contact_button i:hover {
   transform: scale(1.2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease;
   background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -626,16 +631,13 @@
 
 .footer_links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   margin: 0 auto;
+  gap: 0px 12%;
 }
 
-.footer_link-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 
 .footer_link-items h2 {
   font-size: 1.5rem;
@@ -667,9 +669,15 @@
   font-size: 20px;
 }
 
-.contact_button-footer:hover {
+.contact_button-footer i{
+  font-size: 40px;
+  padding: 0px 5px;
+  transition: all 0.4s ease;
+}
+
+.contact_button-footer i:hover {
   transform: scale(1.2);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -678,9 +686,14 @@
   -moz-text-fill-color: transparent;
 }
 
-.footer_contact-map {
+.footer_contact-map i{
   display: flex;
   gap: 10px;
   color: #0b256c;
-  font-size: 10px;
+  font-size: 100px;
+  
+}
+
+.footer_contact-map{
+  text-decoration: none;
 }
