@@ -105,6 +105,7 @@
         action="https://api.web3forms.com/submit"
         method="POST"
         class="contact_menu"
+        id="contact_form"
       >
         <div class="contact_title">
           <h1>ENTRE EM CONTATO</h1>
@@ -134,6 +135,9 @@
           class="contact_input"
           required
         ></textarea>
+
+        <div class="h-captcha" data-captcha="true"></div>
+
         <button type="submit">Enviar</button>
         <hr class="contact_line" />
         <div class="contact_button-container">
@@ -212,5 +216,26 @@
       src="https://kit.fontawesome.com/4d0b2ede10.js"
       crossorigin="anonymous"
     ></script>
+
+
+    <!-- hCAPTCHA VERIFICACAO -->
+    <script>
+      const form = document.getElementById('contact_form');
+      
+      form.addEventListener('submit', function(e) {
+      
+          const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+      
+          if (!hCaptcha) {
+              e.preventDefault();
+              alert("Please fill out captcha field")
+              return
+          }
+      });
+  </script>
+
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+
+   <!-- fim do hCAPTCHA VERIFICACAO -->
   </body>
 </html>

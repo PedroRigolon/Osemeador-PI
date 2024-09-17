@@ -458,7 +458,7 @@
 
 .contact_container {
   background-color: #fcbf89; /* background antigo: #f8d1ae (mais claro)*/
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -755,3 +755,5 @@
     font-size: 40px;
   }
 }
+
+
