@@ -278,11 +278,10 @@
   margin-bottom: 13px;
 }
 
-.main_text #hot_text{
+.main_text #hot_text {
   color: rgb(15, 99, 255);
   font-size: 1.2rem;
   text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.26);
-  
 }
 
 /* .main_content p {
@@ -310,7 +309,6 @@
   text-decoration: none;
   position: relative;
   z-index: 2;
-  
 }
 
 .main_button:hover {
@@ -347,9 +345,7 @@
 .main_text {
   text-align: center;
   justify-content: center;
-  
 }
-
 
 @media screen and (max-width: 1100px) {
   .main {
@@ -554,7 +550,7 @@
   gap: 25px;
 }
 
-.contact_button-container .contact_button i{
+.contact_button-container .contact_button i {
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -635,23 +631,15 @@
 .footer_container {
   background-color: #fbac66;
   padding: 40px 0;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center; */
 }
 
 .footer_links {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   margin: 0 auto;
   gap: 0px 12%;
   text-align: center;
-  
 }
-
-
 
 .footer_link-items h2 {
   font-size: 1.5rem;
@@ -673,7 +661,6 @@
   margin-bottom: 0.5rem;
   justify-content: center;
   align-items: center;
-  
 }
 
 .contact_button-footer {
@@ -683,11 +670,10 @@
   font-size: 20px;
 }
 
-.contact_button-footer i{
+.contact_button-footer i {
   font-size: 40px;
   padding: 0px 5px;
   transition: all 0.4s ease;
-  
 }
 
 .contact_button-footer i:hover {
@@ -701,15 +687,65 @@
   -moz-text-fill-color: transparent;
 }
 
-.footer_contact-map i{
-  display: flex;
-  color: #0b256c;
-  font-size: 100px;
+.footer_contact-map i {
+  display: inline-block;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   text-align: center;
   justify-content: center;
   padding-bottom: 10px;
+  transition: all 0.4s ease;
+  color: white;
 }
 
-.footer_contact-map{
+.footer_contact-map i:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to top, #355bb9 0%, #28375f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.footer_contact-map {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer_link-items h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .footer_link-items a {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .contact_button-footer i {
+    font-size: 30px;
+  }
+
+  .contact_button:hover i {
+    font-size: 30px;
+  }
+
+  .footer_contact-map i {
+    font-size: 40px;
+  }
 }

@@ -8,3 +8,6 @@ MENU SOBRE
 - Colocar botão de "DOE AGORA" na parte de "FAÇA UMA DOAÇÃO" (Fazer todas as alterações que envolvam o main_button)
 
 - Dividir a última página para doação e entre em contato junto? Ou fica muita coisa amontoada?
+
+FOOTER
+- Mudar o mapa pra mostrar que é um botão clicável
