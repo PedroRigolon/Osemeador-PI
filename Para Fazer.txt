@@ -1,10 +1,3 @@
-ALTERAÇÕES A SEREM FEITAS:
-
-- Colocar identificação de qual página a pessoa tá (Quando a pessoa estiver na página principal, o botão INICIO do menu de navegação vai ficar branco)
-
 MENU SOBRE
-- Tirar "REALIZE UMA DOAÇÃO PARA AJUDAR A MANTER O PROJETO"
 - Colocar foto da escola no lugar do livro
-- Colocar botão de "DOE AGORA" na parte de "FAÇA UMA DOAÇÃO" (Fazer todas as alterações que envolvam o main_button)
-
-- Dividir a última página para doação e entre em contato junto? Ou fica muita coisa amontoada?
+- Arrumar o site quando abrir o inspecionar elementos

@@ -78,7 +78,9 @@
             <h2>
               Desde 1974, a Escola Metodista "O Semeador" é uma instituição
               beneficente,
-              <span class="main_destaque" id="hot_text">sem fins lucrativos</span>
+              <span class="main_destaque" id="hot_text"
+                >sem fins lucrativos</span
+              >
               que atende crianças e adolescentes com deficiência intelectual,
               múltiplas deficiências e autismo a partir dos 06 anos de idade.
               Atualmente a escola é referência no atendimento de alunos com TEA
@@ -159,6 +161,26 @@
       </form>
     </div>
 
+    <!-- * DOAÇÃO -->
+    <div class="donation" id="donation">
+      <div class="donation_container">
+        <div class="donation_qrcode-container">
+          <div class="donation_qrcode">Inserir QR-Code para pix</div>
+        </div>
+        <div class="donation_content">
+          <div class="donation_text">
+            <h1>FAÇA SUA DOAÇÃO</h1>
+            <h3>Realize uma doação para nos ajudar a manter nosso projeto</h3>
+            <h3>
+              DADOS PARA DEPÓSITO: Banco do Brasil - Agencia: 2898-3 - C/C:
+              260-7 Razão Social: Associação Metodista de Ação Social - CNPJ:
+              48.569.263.0001/42
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- * FOOTER -->
     <div class="footer_container">
       <div class="footer_links">
@@ -217,25 +239,25 @@
       crossorigin="anonymous"
     ></script>
 
-
-    <!-- hCAPTCHA VERIFICACAO -->
+    <!-- hCAPTCHA VERIFICAÇÃO -->
     <script>
-      const form = document.getElementById('contact_form');
-      
-      form.addEventListener('submit', function(e) {
-      
-          const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-      
-          if (!hCaptcha) {
-              e.preventDefault();
-              alert("Please fill out captcha field")
-              return
-          }
+      const form = document.getElementById("contact_form");
+
+      form.addEventListener("submit", function (e) {
+        const hCaptcha = form.querySelector(
+          "textarea[name=h-captcha-response]"
+        ).value;
+
+        if (!hCaptcha) {
+          e.preventDefault();
+          alert("Please fill out captcha field");
+          return;
+        }
       });
-  </script>
+    </script>
 
-  <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 
-   <!-- fim do hCAPTCHA VERIFICACAO -->
+    <!-- fim do hCAPTCHA VERIFICAÇÃO -->
   </body>
 </html>
