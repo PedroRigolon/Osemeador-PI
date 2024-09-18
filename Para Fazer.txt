@@ -1,3 +1,0 @@
-MENU SOBRE
-- Colocar foto da escola no lugar do livro
-- Arrumar o site quando abrir o inspecionar elementos
