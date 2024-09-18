@@ -8,3 +8,22 @@ MENU SOBRE
 - Colocar botão de "DOE AGORA" na parte de "FAÇA UMA DOAÇÃO" (Fazer todas as alterações que envolvam o main_button)
 
 - Dividir a última página para doação e entre em contato junto? Ou fica muita coisa amontoada?
+
+
+LINK PARA IR ATE A ABA DO GMAIL:
+href="https://mail.google.com/mail/?view=cm&fs=1&to=exemplo@gmail.com&su=Contato%20-%20RC&body=Escreva%20sua%20mensagem%20aqui" target="_blank"
+
+Explicação
+
+SUBSTITUIR O HREF DO LINK PELO CODIGO INTEIRO, DENTRO DAS SETAS (<>)
+
+https://mail.google.com/mail/?view=cm&fs=1: Abre o Gmail no modo de composição de um novo e-mail.
+
+to=exemplo@gmail.com: Preenche o destinatário com o endereço de e-mail especificado.
+
+su=Contato%20-%20RC: Define o assunto do e-mail como "Contato - RC". Substituímos os espaços por %20.
+
+target="_blank": Abre o link em uma nova aba do navegador.
+
+body=Escreva%20sua%20mensagem%20aqui: Define o corpo do e-mail. Certifique-se de substituir espaços por %20 e outros caracteres especiais conforme necessário.
+
