@@ -15,27 +15,34 @@ const highlightMenu = () => {
   const elem = document.querySelector(".highlight");
   const homeMenu = document.querySelector("#home-page");
   const aboutMenu = document.querySelector("#about-page");
+  const moreAboutMenu = document.querySelector("#moreAbout-page");
   const contactMenu = document.querySelector("#contact-page");
 
   let scrollPos = window.scrollY;
 
-  if (homeMenu && aboutMenu && contactMenu) {
-    if (window.innerWidth > 960 && scrollPos < 600) {
-      homeMenu.classList.add("highlight");
-      aboutMenu.classList.remove("highlight");
-      contactMenu.classList.remove("highlight");
-    } else if (window.innerWidth > 960 && scrollPos < 1400) {
-      aboutMenu.classList.add("highlight");
-      homeMenu.classList.remove("highlight");
-      contactMenu.classList.remove("highlight");
-    } else if (window.innerWidth > 960 && scrollPos < 2345) {
-      contactMenu.classList.add("highlight");
-      aboutMenu.classList.remove("highlight");
-    }
+  const menus = [
+    { element: homeMenu, limit: 450 },
+    { element: aboutMenu, limit: 1300 },
+    { element: moreAboutMenu, limit: 2080 },
+    { element: contactMenu, limit: 3004 },
+  ];
 
-    if (elem && (window.innerWidth < 960 || scrollPos > 2345)) {
-      elem.classList.remove("highlight");
+  if (homeMenu && aboutMenu && moreAboutMenu && contactMenu) {
+    const isWideScreen = window.innerWidth > 960;
+
+    if (isWideScreen) {
+      for (let i = 0; i < menus.length; i++) {
+        if (scrollPos < menus[i].limit) {
+          menus.forEach((menu) => menu.element.classList.remove("highlight"));
+          menus[i].element.classList.add("highlight");
+          break;
+        }
+      }
     }
+  }
+
+  if (elem && (window.innerWidth < 960 || scrollPos > 3004)) {
+    elem.classList.remove("highlight");
   }
 };
 
