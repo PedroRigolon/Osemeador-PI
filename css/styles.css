@@ -386,13 +386,13 @@
 .infra {
   background-color: #f8d1ae; /*background-color: #fbac66;*/
   padding: 7rem 0;
-  height: 52rem;
+  height: 55rem;
 }
 
 .moreAbout_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "text2 image2";
+  grid-template-areas: "texto imagem";
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -403,7 +403,7 @@
 }
 
 .moreAbout_content {
-  grid-area: text2;
+  grid-area: texto;
   color: #131313;
   width: 100%;
 }
@@ -427,9 +427,19 @@
   text-align: justify;
   color: rgb(49, 49, 49);
   margin-bottom: 13px;
+  justify-content: center;
+  text-align: center;
 }
 
 .moreAbout_image-container {
+  grid-area: imagem;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+}
+
+.moreAbout_image {
   margin: 10px;
   height: 500px;
   width: 500px;
@@ -440,19 +450,6 @@
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #5d71a2 0%, #19264b 100%);
-}
-
-.moreAbout_image {
-  grid-area: image2;
-  text-align: center;
-  align-items: center;
-  justify-content: left;
-  display: flex;
-}
-
-.fa-solid,
-.fa-book {
-  font-size: 12rem;
 }
 
 .moreAbout_text {
@@ -468,18 +465,21 @@
   .moreAbout_container {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "texto"
+      "imagem";
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
   }
 
-  .moreAbout_image {
+  .moreAbout_image-container {
     display: flex;
     justify-content: center;
   }
 
-  .moreAbout_image-container {
+  .moreAbout_image {
     height: 425px;
     width: 425px;
   }
@@ -496,19 +496,14 @@
   }
 
   .moreAbout_content h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .moreAbout_image-container {
+  .moreAbout_image {
     width: 250px;
-    height: 250px;
-  }
-
-  .fa-solid,
-  .fa-book {
-    font-size: 4rem;
+    height: 370px;
   }
 
   .moreAbout_content h1 {
