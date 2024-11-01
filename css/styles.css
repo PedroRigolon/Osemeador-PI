@@ -551,6 +551,12 @@
   justify-content: space-evenly;
 }
 
+.contact_container .contact_menu{
+  background-color: rgba(255, 255, 255, 0.493);
+  padding: 30px 25px ;
+  border-radius: 12px;
+}
+
 .contact_menu {
   display: flex;
   flex-direction: column;
@@ -560,9 +566,8 @@
 }
 
 .contact_title {
-  font-size: 2rem;
-  background-color: #2a4eaf;
-  background-image: linear-gradient(to top, #0b256c 0%, #4270e2 100%);
+  font-size: 1.5rem;
+  background-color: #2551cb;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -570,38 +575,38 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .contact_input {
   width: 545px;
-  height: 70px;
+  height: 60px;
   border: none;
   outline: none;
   padding-left: 25px;
   font-weight: 500;
   font-size: 15px;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: rgb(255, 255, 255);
  
 }
 
 .contact_menu textarea {
-  height: 100px;
+  
   padding-top: 15px;
-  border-radius: 20px;
+  border-radius: 15px;
+  height: 150px; /* Altura fixa */
+    max-height: 200px; /* Altura máxima */
+  resize: none; /* Impede o redimensionamento */
+  overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo ultrapassar a altura */
 }
 
 .contact_input:focus {
   border: 1px solid #5f5f5f;
-  
   transition: all 0.5s ease;
   box-shadow: 0px 1px 5px 0px #0000007d;
 }
 
-.contact_input::placeholder {
-  color: rgb(46, 45, 45) 66, 66)
-}
 
 .contact_menu button {
   display: flex;
