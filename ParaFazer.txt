@@ -1,19 +1,9 @@
-MENU SOBRE
-- Colocar foto da escola no lugar do livro
+Atualizar logo para foto dos 50 anos;
 
-LINK PARA IR ATE A ABA DO GMail:
-href="https://mail.google.com/mail/?view=cm&fs=1&to=exemplo@gmail.com&su=Contato%20-%20RC&body=Escreva%20sua%20mensagem%20aqui" target="_blank"
+Adicionar carrossel com imagens;
 
-Explicação
+Atualizar imagens nas páginas;
 
-SUBSTITUIR O HREF DO LINK PELO CÓDIGO INTEIRO, DENTRO DAS SETAS (<>)
+Adicionar QR-CODE;
 
-https://mail.google.com/mail/?view=cm&fs=1: Abre o GMail no modo de composição de um novo e-mail.
-
-to=exemplo@gmail.com: Preenche o destinatário com o endereço de e-mail especificado.
-
-su=Contato%20-%20RC: Define o assunto do e-mail como "Contato - RC". Substituímos os espaços por %20.
-
-target="_blank": Abre o link em uma nova aba do navegador.
-
-body=Escreva%20sua%20mensagem%20aqui: Define o corpo do e-mail. Certifique-se de substituir espaços por %20 e outros caracteres especiais conforme necessário.
+Atualizar o sobre e adicionar possíveis novas áreas (eventos, parceiros, fazer pedagógico);
