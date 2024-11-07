@@ -22,8 +22,8 @@ const highlightMenu = () => {
 
   const menus = [
     { element: homeMenu, limit: 450 },
-    { element: aboutMenu, limit: 1300 },
-    { element: moreAboutMenu, limit: 2080 },
+    { element: aboutMenu, limit: 1232 },
+    { element: moreAboutMenu, limit: 2045 },
     { element: contactMenu, limit: 3004 },
   ];
 
