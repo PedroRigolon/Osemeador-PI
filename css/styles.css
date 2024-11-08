@@ -313,7 +313,7 @@ html{
 .main_text #hot_text {
   color: rgb(15, 99, 255);
   font-size: 1.4rem;
-  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.26);
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.127);
 }
 
 .main_image {
@@ -454,7 +454,10 @@ html{
 .moreAbout_content h3 {
   font-size: 1.1rem;
   text-align: justify;
+  /* 
   color: rgb(49, 49, 49);
+   */
+  color: rgb(227, 227, 227);
   margin-bottom: 13px;
   justify-content: center;
   text-align: center;
