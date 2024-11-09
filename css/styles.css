@@ -11,6 +11,19 @@ html{
   scroll-padding: 65px;
 }
 
+html, body {/* ESSE AQ FOI ADICIONADO  */ 
+
+  overflow-x: hidden;
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
 
 /* ? Navegação */
 .nav_bar {
@@ -253,6 +266,12 @@ html{
 
   .hero_description {
     font-size: 30px;
+  }
+
+  .hero { /* ESSE AQ FOI ADICIONADO  */ 
+     background-size:auto; 
+     background-position:-300px;
+     background-attachment: fixed; 
   }
 }
 
