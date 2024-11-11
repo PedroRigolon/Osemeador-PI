@@ -11,17 +11,6 @@ html{
   scroll-padding: 65px;
 }
 
-html, body {/* ESSE AQ FOI ADICIONADO  */ 
-
-  overflow-x: hidden;
-
-  margin: 0;
-
-  padding: 0;
-
-  box-sizing: border-box;
-
-}
 
 
 
@@ -82,7 +71,7 @@ html, body {/* ESSE AQ FOI ADICIONADO  */
   align-items: center;
   justify-content: center;
   width: 135px;
-  margin: 0px 12px;
+  
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
