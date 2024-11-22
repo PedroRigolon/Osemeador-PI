@@ -16,8 +16,8 @@ Pedro Segantini Desenvolvimento do código (Front-End e Back-End);
 
 Pedro Rigolon - Desenvolvimento do código (Front-End e Back-End);
 
-Erik Duarte - Ajuste de imagens e documentação;
+Erik Duarte - Testes de usabilidade, ajuste de imagens e documentação;
 
-Gabriel Gildin - Documentação;
+Gabriel Gildin - Entrevista com parceiro, análise de gráficos e requisitos.
 
 O projeto final atualizado está na branch SITE.
