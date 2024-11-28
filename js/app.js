@@ -2,6 +2,21 @@ const menu = document.querySelector("#menu-mobile");
 const menuLinks = document.querySelector(".nav_menu");
 const navLogo = document.querySelector("#nav_logo");
 
+let count = 1;
+document.getElementById("radio1").checked = true;
+setInterval(function () {
+  nextImage();
+}, 5000);
+
+function nextImage() {
+  count++;
+  if (count > 3) {
+    count = 1;
+  }
+
+  document.getElementById("radio" + count).checked = true;
+}
+
 // Display para menu Mobile
 const mobileMenu = () => {
   menu.classList.toggle("is-active");
