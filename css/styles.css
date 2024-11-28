@@ -291,7 +291,7 @@ html {
 }
 
 .main_title h1 {
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   background-color: #2a4eaf;
   background-image: linear-gradient(to top, #0b256c 0%, #355bb9 100%);
   background-size: 100%;
@@ -417,12 +417,27 @@ html {
 
 .infra {
   background-color: #f8d1ae; /*background-color: #fbac66;*/
-  padding: 7rem 0;
+  padding: 5rem 0;
   height: 54rem;
   background-image: url(/img/bg_infra.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.moreAbout_title h1 {
+  font-size: 3.6rem;
+  background-color: #2a4eaf;
+  background-image: linear-gradient(to top, #0b256c 0%, #355bb9 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .moreAbout_container {
@@ -460,7 +475,7 @@ html {
   grid-area: imagem;
   text-align: center;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   display: flex;
 }
 
@@ -752,8 +767,23 @@ html {
 /* ? Doação */
 .donation {
   background-color: #f8d1ae; /*background-color: #fbac66;*/
-  padding: 7rem 0;
+  padding: 5rem 0;
   height: 54rem;
+}
+
+.donation_title h1 {
+  font-size: 3.6rem;
+  background-color: #2a4eaf;
+  background-image: linear-gradient(to top, #0b256c 0%, #355bb9 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .donation_container {
@@ -788,7 +818,7 @@ html {
   grid-area: qr;
   text-align: center;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   display: flex;
 }
 
