@@ -2,19 +2,34 @@ const menu = document.querySelector("#menu-mobile");
 const menuLinks = document.querySelector(".nav_menu");
 const navLogo = document.querySelector("#nav_logo");
 
-let count = 1;
+let main_count = 1;
 document.getElementById("main_radio1").checked = true;
+setInterval(function () {
+  nextImageMain();
+}, 5000);
+
+function nextImageMain() {
+  main_count++;
+  if (main_count > 3) {
+    main_count = 1;
+  }
+
+  document.getElementById("main_radio" + main_count).checked = true;
+}
+
+let moreAbout_count = 1;
+document.getElementById("moreAbout_radio1").checked = true;
 setInterval(function () {
   nextImage();
 }, 5000);
 
 function nextImage() {
-  count++;
-  if (count > 3) {
-    count = 1;
+  moreAbout_count++;
+  if (moreAbout_count > 3) {
+    moreAbout_count = 1;
   }
 
-  document.getElementById("main_radio" + count).checked = true;
+  document.getElementById("moreAbout_radio" + moreAbout_count).checked = true;
 }
 
 // Display para menu Mobile
