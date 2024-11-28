@@ -3,7 +3,7 @@ const menuLinks = document.querySelector(".nav_menu");
 const navLogo = document.querySelector("#nav_logo");
 
 let count = 1;
-document.getElementById("radio1").checked = true;
+document.getElementById("main_radio1").checked = true;
 setInterval(function () {
   nextImage();
 }, 5000);
@@ -14,7 +14,7 @@ function nextImage() {
     count = 1;
   }
 
-  document.getElementById("radio" + count).checked = true;
+  document.getElementById("main_radio" + count).checked = true;
 }
 
 // Display para menu Mobile
