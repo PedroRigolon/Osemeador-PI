@@ -1,14 +1,7 @@
-Atualizar logo para foto dos 50 anos;
-
-Adicionar carrossel com imagens;
-
-Atualizar imagens nas páginas;
-
 Adicionar QR-CODE;
 
 Atualizar o sobre e adicionar possíveis novas áreas (eventos, parceiros, fazer pedagógico);
 
 Fazer carrossel de imagem com as fotos dos parceiros;
 
-atualizar o sobre centralizando o titulo
-
+Atualizar a infraestrutura para ficar do mesmo estilo do sobre;

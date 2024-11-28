@@ -6,13 +6,9 @@
   scroll-behavior: smooth;
 }
 
-
-html{
+html {
   scroll-padding: 65px;
 }
-
-
-
 
 /* ? Navegação */
 .nav_bar {
@@ -62,7 +58,6 @@ html{
 
 .nav_item {
   height: 80px;
-  
 }
 
 .nav_links {
@@ -71,7 +66,7 @@ html{
   align-items: center;
   justify-content: center;
   width: 135px;
-  
+
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
@@ -212,19 +207,17 @@ html{
 /* ? Inicial */
 .hero {
   background: #f8d1ae; /* ? Imagem de fundo semeador */
-  background: to right(#161616, #000000);   
+  background: to right(#161616, #000000);
   padding: 200px 0;
-  height: 72vh;
+  height: 45rem;
 
-   /* Definindo a imagem de fundo */
-   
-   
-   background-image: url('/img/rua-background.png'); 
-   background-size:cover; 
-   background-attachment: fixed; 
-   background-position: center; 
-   background-repeat: no-repeat; 
+  /* Definindo a imagem de fundo */
 
+  background-image: url("/img/rua-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero_container {
@@ -257,20 +250,21 @@ html{
     font-size: 30px;
   }
 
-  .hero { /* ESSE AQ FOI ADICIONADO  */ 
-     background-size:auto; 
-     background-position:-300px;
-     background-attachment: fixed; 
+  .hero {
+    /* ESSE AQ FOI ADICIONADO  */
+    height: 33rem;
+    background-size: auto;
+    background-position: -300px;
+    background-attachment: fixed;
   }
 }
 
 /* ? Sobre */
 .main {
   background-color: #e0dfdf; /*background-color: #fbac66;*/
-  padding-top: 1.5rem ;
-  padding-bottom: 4rem ;
-  
-  
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+  height: 54rem;
 }
 
 .main_container {
@@ -283,7 +277,6 @@ html{
   z-index: 1;
   width: 100%;
   padding: 0 50px;
-  
 }
 
 .main_content {
@@ -295,7 +288,6 @@ html{
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .main_title h1 {
@@ -390,6 +382,7 @@ html{
   }
 
   .main_content h2 {
+    margin-top: 40px;
     font-size: 1.1rem;
   }
 }
@@ -425,18 +418,12 @@ html{
 .infra {
   background-color: #f8d1ae; /*background-color: #fbac66;*/
   padding: 7rem 0;
-  height: 50rem;
-
-  
-
+  height: 54rem;
   background-image: url(/img/bg_infra.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
 }
-
-
-
 
 .moreAbout_container {
   display: grid;
@@ -456,8 +443,6 @@ html{
   color: #131313;
   width: 100%;
 }
-
-
 
 .moreAbout_content h3 {
   font-size: 1.1rem;
@@ -585,15 +570,15 @@ html{
 
 .contact_container {
   background-color: #fcb77b;
-  height: 52rem;
+  height: 54rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.contact_container .contact_menu{
+.contact_container .contact_menu {
   background-color: rgba(255, 255, 255, 0.493);
-  padding: 30px 25px ;
+  padding: 30px 25px;
   border-radius: 12px;
 }
 
@@ -628,15 +613,13 @@ html{
   font-size: 15px;
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
- 
 }
 
 .contact_menu textarea {
-  
   padding-top: 15px;
   border-radius: 15px;
   height: 150px; /* Altura fixa */
-    max-height: 200px; /* Altura máxima */
+  max-height: 200px; /* Altura máxima */
   resize: none; /* Impede o redimensionamento */
   overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo ultrapassar a altura */
 }
@@ -646,7 +629,6 @@ html{
   transition: all 0.5s ease;
   box-shadow: 0px 1px 5px 0px #0000007d;
 }
-
 
 .contact_menu button {
   display: flex;
@@ -771,7 +753,7 @@ html{
 .donation {
   background-color: #f8d1ae; /*background-color: #fbac66;*/
   padding: 7rem 0;
-  height: 50rem;
+  height: 54rem;
 }
 
 .donation_container {
@@ -792,7 +774,6 @@ html{
   color: #131313;
   width: 100%;
 }
-
 
 .donation_content h3 {
   font-size: 1.1rem;
@@ -977,18 +958,17 @@ html{
   text-decoration: none;
 }
 
-.footer_map{
+.footer_map {
   width: 285px;
   height: 170px;
   border-radius: 15px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.footer_map:hover{
+.footer_map:hover {
   transform: scale(1.07);
-  transition: .5s;
+  transition: 0.5s;
   box-shadow: 0px 0px 10px 3px #0000003e;
-
 }
 
 @media screen and (max-width: 768px) {
