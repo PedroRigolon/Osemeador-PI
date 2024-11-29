@@ -1,7 +1,3 @@
 Adicionar QR-CODE;
 
 Atualizar o sobre e adicionar possíveis novas áreas (eventos, parceiros, fazer pedagógico);
-
-Fazer carrossel de imagem com as fotos dos parceiros;
-
-Atualizar a infraestrutura para ficar do mesmo estilo do sobre;
