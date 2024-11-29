@@ -977,6 +977,11 @@ html {
   align-items: center;
   justify-content: center;
   display: flex;
+  border-radius: 15px;
+}
+
+#img_qrcode {
+  border-radius: 5px;
 }
 
 .donation_qrcode {
