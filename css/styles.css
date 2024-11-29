@@ -261,7 +261,7 @@ html {
 
 /* ? Sobre */
 .main {
-  background-color: #e0dfdf; /*background-color: #fbac66;*/
+  background-color: #ffffff; /*background-color: #fbac66;*/
   padding-top: 1.5rem;
   padding-bottom: 4rem;
   height: 54rem;
@@ -498,7 +498,7 @@ html {
 /* ? Infraestrutura e Equipe */
 
 .infra {
-  background-color: #e0dfdf; /*background-color: #fbac66;*/
+  background-color: #ffffff; /*background-color: #fbac66;*/
   padding: 5rem 0;
   height: 54rem;
   background-repeat: no-repeat;
@@ -557,7 +557,7 @@ html {
 .moreAbout_image {
   margin: 10px;
   height: 400px;
-  width: 700px;
+  width: 635px;
   overflow: hidden;
   border-radius: 8px;
 }
