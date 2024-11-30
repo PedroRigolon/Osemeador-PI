@@ -9,6 +9,32 @@
 html {
   scroll-padding: 65px;
 }
+  
+
+
+
+.partner{
+  background-color:#6eadff6e;
+  padding: 4.25% 0%;
+  
+}
+
+
+
+.partner_container{
+  gap: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0% 4%;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+}
+
+
+
+
 
 /* ? Navegação */
 .nav_bar {
@@ -161,9 +187,10 @@ html {
 
   .nav_links {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0rem;
     width: 100%;
     display: table;
+    
   }
 
   .nav_button {
@@ -428,7 +455,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
   .main {
     height: 100%;
   }
@@ -467,6 +494,8 @@ html {
     margin-top: 40px;
     font-size: 1.1rem;
   }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -654,7 +683,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
   .infra {
     height: 100%;
   }
@@ -1002,7 +1031,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
   .donation {
     height: 100%;
   }
