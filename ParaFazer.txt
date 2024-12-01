@@ -1,1 +1,1 @@
-Menu mobile não fechando automaticamente quando clica na parte selecionada (mas está direcionando)
+melhorar imagens

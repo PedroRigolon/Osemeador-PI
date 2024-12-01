@@ -58,7 +58,6 @@ const highlightMenu = () => {
   ];
 
   let scrollPos = window.scrollY;
-  console.log(scrollPos);
 
   if (homeMenu && aboutMenu && moreAboutMenu && partners && contactMenu) {
     const isWideScreen = window.innerWidth > 960;
