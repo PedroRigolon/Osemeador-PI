@@ -6,8 +6,10 @@
   scroll-behavior: smooth;
 }
 
-html {
+html,
+body {
   scroll-padding: 65px;
+  overflow-x: hidden;
 }
 
 /* ? Navegação */
@@ -714,13 +716,12 @@ html {
   }
 }
 
-.partner{
-  background-color:#6faaf76e;
+.partner {
+  background-color: #6faaf76e;
   padding: 4.25% 0%;
-  
 }
 
-.partner_container{
+.partner_container {
   gap: 15px 10px;
   display: flex;
   justify-content: space-between;
@@ -729,7 +730,6 @@ html {
   flex-wrap: wrap;
   align-items: flex-end;
 }
-
 
 /* ? Contato */
 
