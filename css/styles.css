@@ -9,32 +9,6 @@
 html {
   scroll-padding: 65px;
 }
-  
-
-
-
-.partner{
-  background-color:#6eadff6e;
-  padding: 4.25% 0%;
-  
-}
-
-
-
-.partner_container{
-  gap: 15px 10px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin: 0% 4%;
-  flex-wrap: wrap;
-  align-items: flex-end;
-
-}
-
-
-
-
 
 /* ? Navegação */
 .nav_bar {
@@ -167,7 +141,7 @@ html {
     opacity: 1;
     transition: all 0.7s ease;
     z-index: 99;
-    height: 27rem;
+    height: 32rem;
     font-size: 1.6rem;
     border-top: 2px solid rgba(0, 0, 0, 0.193);
     border-bottom: 2px solid rgba(0, 0, 0, 0.193);
@@ -187,10 +161,9 @@ html {
 
   .nav_links {
     text-align: center;
-    padding: 2rem 0rem;
+    padding: 2rem;
     width: 100%;
     display: table;
-    
   }
 
   .nav_button {
@@ -288,7 +261,7 @@ html {
 
 /* ? Sobre */
 .main {
-  background-color: #ffffff; /*background-color: #fbac66;*/
+  background-color: #e0dfdf; /*background-color: #fbac66;*/
   padding-top: 1.5rem;
   padding-bottom: 4rem;
   height: 54rem;
@@ -455,7 +428,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .main {
     height: 100%;
   }
@@ -494,8 +467,6 @@ html {
     margin-top: 40px;
     font-size: 1.1rem;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -527,7 +498,7 @@ html {
 /* ? Infraestrutura e Equipe */
 
 .infra {
-  background-color: #ffffff; /*background-color: #fbac66;*/
+  background-color: #e0dfdf; /*background-color: #fbac66;*/
   padding: 5rem 0;
   height: 54rem;
   background-repeat: no-repeat;
@@ -586,7 +557,7 @@ html {
 .moreAbout_image {
   margin: 10px;
   height: 400px;
-  width: 635px;
+  width: 700px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -683,7 +654,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .infra {
     height: 100%;
   }
@@ -742,6 +713,23 @@ html {
     text-align: center;
   }
 }
+
+.partner{
+  background-color:#6faaf76e;
+  padding: 4.25% 0%;
+  
+}
+
+.partner_container{
+  gap: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0% 4%;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
 
 /* ? Contato */
 
@@ -1031,7 +1019,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .donation {
     height: 100%;
   }

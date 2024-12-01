@@ -46,18 +46,21 @@ const highlightMenu = () => {
   const homeMenu = document.querySelector("#home-page");
   const aboutMenu = document.querySelector("#about-page");
   const moreAboutMenu = document.querySelector("#moreAbout-page");
+  const partners = document.querySelector("#partners");
   const contactMenu = document.querySelector("#contact-page");
 
-  let scrollPos = window.scrollY;
-
   const menus = [
-    { element: homeMenu, limit: 450 },
-    { element: aboutMenu, limit: 1232 },
-    { element: moreAboutMenu, limit: 2045 },
-    { element: contactMenu, limit: 3004 },
+    { element: homeMenu, limit: 700 },
+    { element: aboutMenu, limit: 1560 },
+    { element: moreAboutMenu, limit: 2435 },
+    { element: partners, limit: 2759 },
+    { element: contactMenu, limit: 3619 },
   ];
 
-  if (homeMenu && aboutMenu && moreAboutMenu && contactMenu) {
+  let scrollPos = window.scrollY;
+  console.log(scrollPos);
+
+  if (homeMenu && aboutMenu && moreAboutMenu && partners && contactMenu) {
     const isWideScreen = window.innerWidth > 960;
 
     if (isWideScreen) {
