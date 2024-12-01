@@ -1,7 +1,1 @@
-Atualizar o sobre e adicionar possíveis novas áreas (eventos, parceiros, fazer pedagógico);
-
 Menu mobile não fechando automaticamente quando clica na parte selecionada (mas está direcionando)
-
-Site ficando assim quando a tela está pequena (https://prnt.sc/Wws372Y-Ti_F)
-
-imagem desconfigurada
