@@ -13,6 +13,13 @@ body {
   max-width: 100%;
 }
 
+.strong2{
+  font-size: 1.17rem;
+  color: #000000;
+}
+
+
+
 /* ? Navegação */
 .nav_bar {
   background: #f77e14;
@@ -347,12 +354,12 @@ body {
 
 .main_content h2 {
   font-size: 1.4rem;
-  color: rgb(49, 49, 49);
+  color: rgb(27, 27, 27);
   margin-bottom: 13px;
 }
 
 #hot_text {
-  color: rgb(15, 99, 255);
+  color: rgb(15, 92, 235);
   font-size: 1.4rem;
   text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.127);
 }
@@ -595,7 +602,7 @@ body {
 
 .moreAbout_content h3 {
   font-size: 1.4rem;
-  color: rgb(49, 49, 49);
+  color: rgb(31, 30, 30);
   margin-bottom: 13px;
 }
 
@@ -1079,7 +1086,7 @@ body {
 .donation_content h3 {
   font-size: 1.1rem;
   text-align: justify;
-  color: rgb(49, 49, 49);
+  color: rgb(36, 36, 36);
   margin-bottom: 13px;
   justify-content: center;
   text-align: center;
@@ -1109,6 +1116,14 @@ body {
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, #5d71a2 0%, #19264b 100%);
+}
+
+.donation_text #hot_text{
+  font-size: 1.25rem;
+}
+
+.donation_text em{
+  padding: 0px 7px;
 }
 
 @media screen and (max-width:770px){
