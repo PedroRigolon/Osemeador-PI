@@ -249,9 +249,15 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width:1480px) {
+@media screen and (max-width:1440px) and (max-height:900px){
   .hero {
     height: 39rem;  
+  }
+}
+
+@media screen and (max-width:1366px) and (max-height:768px){
+  .hero {
+    height: 32rem;  
   }
 }
 
