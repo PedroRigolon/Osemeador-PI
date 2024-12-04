@@ -922,7 +922,7 @@ body {
   text-align: center;
   margin: 0% 4%;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
 }
 
 @media screen and (max-width:1600px) {
@@ -934,6 +934,13 @@ body {
 @media screen and (max-width:1500px) {
   .partner_container img{
     width: 145px;
+  }
+}
+
+@media screen and (max-width:999px) {
+  .partner_container{
+    gap: 15px 20px;
+    justify-content: center;
   }
 }
 
