@@ -616,6 +616,9 @@ body {
     margin-right: 13px;
   }
   
+  .main_slide img {
+    width: 350px;
+  }
 }
 
 /* ? Infraestrutura e Equipe */
@@ -702,7 +705,7 @@ body {
 }
 
 .moreAbout_slide img {
-  width: 700px;
+  width: 650px;
 }
 
 .moreAbout_manual-navigation {
@@ -899,7 +902,9 @@ body {
     margin-right: 13px;
   }
   
-  
+  .moreAbout_slide img {
+    width: 430px;
+  }
   
 }
 
