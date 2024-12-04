@@ -407,14 +407,14 @@ body {
 .main_manual-navigation {
   position: absolute;
   width: 700px;
-  margin-top: -20px;
+  margin-top: -25px;
   display: flex;
   justify-content: center;
   
 }
 
 .main_manual_btn {
-  border: 2px solid #fff;
+  border: 3.4px solid #fff;
   padding: 6px;
   border-radius: 8px;
   cursor: pointer;
@@ -422,7 +422,7 @@ body {
 }
 
 .main_manual_btn:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .main_manual_btn:hover {
@@ -441,7 +441,7 @@ body {
 }
 
 .main_navigation_auto div {
-  border: 2px solid #0b256c;
+  border: 3.4px solid #0b256c;
   padding: 6px;
   border-radius: 8px;
   cursor: pointer;
@@ -453,14 +453,14 @@ body {
 .main_navigation_auto {
   position: absolute;
   width: 700px;
-  margin-top: 380px;
+  margin-top: 375px;
   display: flex;
   justify-content: center;
   
 }
 
 .main_navigation_auto div:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 24px;
   
 }
 
@@ -711,13 +711,13 @@ body {
 .moreAbout_manual-navigation {
   position: absolute;
   width: 700px;
-  margin-top: -20px;
+  margin-top: -25px;
   display: flex;
   justify-content: center;
 }
 
 .moreAbout_manual_btn {
-  border: 2px solid #fff;
+  border: 3.4px solid #fff;
   padding: 6px;
   border-radius: 8px;
   cursor: pointer;
@@ -725,7 +725,7 @@ body {
 }
 
 .moreAbout_manual_btn:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .moreAbout_manual_btn:hover {
@@ -744,7 +744,7 @@ body {
 }
 
 .moreAbout_navigation_auto div {
-  border: 2px solid #0b256c;
+  border: 3.4px solid #0b256c;
   padding: 6px;
   border-radius: 8px;
   cursor: pointer;
@@ -754,13 +754,13 @@ body {
 .moreAbout_navigation_auto {
   position: absolute;
   width: 700px;
-  margin-top: 380px;
+  margin-top: 375px;
   display: flex;
   justify-content: center;
 }
 
 .moreAbout_navigation_auto div:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 #moreAbout_radio1:checked ~ .moreAbout_navigation_auto .moreAbout_auto-btn1 {
