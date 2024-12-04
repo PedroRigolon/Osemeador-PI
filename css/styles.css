@@ -1471,6 +1471,12 @@ body {
   .footer_contact-map i {
     font-size: 40px;
   }
+
+  .footer_map {
+    width: 200px;
+    height: auto;
+    
+  }
 }
 
 /* responsividade */
