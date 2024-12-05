@@ -245,7 +245,7 @@ body {
   background: #f8d1ae; /* ? Imagem de fundo semeador */
   background: to right(#161616, #000000);
   padding: 200px 0;
-  height: 47rem;
+  height: 38rem;
 
   /* Definindo a imagem de fundo */
 
@@ -254,18 +254,6 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-@media screen and (max-width:1440px) and (max-height:900px){
-  .hero {
-    height: 39rem;  
-  }
-}
-
-@media screen and (max-width:1366px) and (max-height:768px){
-  .hero {
-    height: 32rem;  
-  }
 }
 
 .hero_container {

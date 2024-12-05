@@ -50,11 +50,11 @@ const highlightMenu = () => {
   const contactMenu = document.querySelector("#contact-page");
 
   const menus = [
-    { element: homeMenu, limit: 405 },
-    { element: aboutMenu, limit: 1311 },
-    { element: moreAboutMenu, limit: 2135 },
-    { element: partners, limit: 2500 },
-    { element: contactMenu, limit: 3386 },
+    { element: homeMenu, limit: 520 },
+    { element: aboutMenu, limit: 1382 },
+    { element: moreAboutMenu, limit: 2244 },
+    { element: partners, limit: 2636 },
+    { element: contactMenu, limit: 3498 },
   ];
 
   let scrollPos = window.scrollY;
