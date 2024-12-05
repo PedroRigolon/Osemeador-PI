@@ -624,7 +624,7 @@ body {
 /* ? Infraestrutura e Equipe */
 
 .infra {
-  background-color: #ffffff; /*background-color: #fbac66;*/
+  background-color: #dddddd; /*background-color: #fbac66;*/
   padding: 5rem 0;
   height: 54rem;
   background-repeat: no-repeat;
@@ -909,9 +909,9 @@ body {
 }
 
 /* PARCEIROS */
-
+/* #6faaf76e */
 .partner {
-  background-color: #6faaf76e;
+  background-color: #fff;
   padding: 3.75% 0%;
 }
 
@@ -1230,6 +1230,11 @@ body {
   justify-content: center;
   display: flex;
   border-radius: 15px;
+  
+}
+
+.donation_qrcode-container img{
+  width: 30rem;
 }
 
 #img_qrcode {
@@ -1238,8 +1243,8 @@ body {
 
 .donation_qrcode {
   margin: 10px;
-  height: 500px;
-  width: 500px;
+  height: 100px;
+  width: 100px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;

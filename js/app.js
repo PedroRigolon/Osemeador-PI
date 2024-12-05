@@ -50,14 +50,15 @@ const highlightMenu = () => {
   const contactMenu = document.querySelector("#contact-page");
 
   const menus = [
-    { element: homeMenu, limit: 626 },
-    { element: aboutMenu, limit: 1479 },
-    { element: moreAboutMenu, limit: 2357 },
-    { element: partners, limit: 2834 },
-    { element: contactMenu, limit: 3694 },
+    { element: homeMenu, limit: 405 },
+    { element: aboutMenu, limit: 1311 },
+    { element: moreAboutMenu, limit: 2135 },
+    { element: partners, limit: 2500 },
+    { element: contactMenu, limit: 3386 },
   ];
 
   let scrollPos = window.scrollY;
+  console.log(scrollPos);
 
   if (homeMenu && aboutMenu && moreAboutMenu && partners && contactMenu) {
     const isWideScreen = window.innerWidth > 960;
