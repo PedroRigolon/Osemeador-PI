@@ -249,7 +249,7 @@ body {
 
   /* Definindo a imagem de fundo */
 
-  background-image: url("/img/img-sobre/rua-background.webp");
+  background-image: url("Osemeador-PI/img/img-sobre/rua-background.webp");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
