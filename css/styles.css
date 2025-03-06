@@ -242,6 +242,12 @@ body {
 
 /* ? Inicial */
 .hero {
+  background-image: url("/img/img-sobre/rua-background.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   background: #f8d1ae; /* ? Imagem de fundo semeador */
   background: to right(#161616, #000000);
   padding: 200px 0;
@@ -249,11 +255,7 @@ body {
 
   /* Definindo a imagem de fundo */
 
-  background-image: url("Osemeador-PI/img/img-sobre/rua-background.webp");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  
 }
 
 .hero_container {
